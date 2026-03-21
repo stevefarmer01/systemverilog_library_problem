@@ -1,0 +1,10 @@
+#########
+#Exclude all
+#########
+*
+!*/
+!.gitignore
+#########
+#Source files:
+#########
+!/*.sv

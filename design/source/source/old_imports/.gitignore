@@ -1,0 +1,13 @@
+#########
+#Exclude all
+#########
+*
+!*/
+!.gitignore
+#########
+#Source files:
+#########
+!*.v
+!*.txt
+!*.xdc
+!*.xci
