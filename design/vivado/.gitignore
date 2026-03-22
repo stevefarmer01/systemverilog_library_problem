@@ -1,0 +1,21 @@
+#########################################################################################################
+##  This is an example .gitignore file for Vivado, please treat it as an example as
+##  it might not be complete. In addition, XAPP 1165 should be followed.
+#########################################################################################################
+#########
+#Exclude all
+#########
+*
+!*/
+!.gitignore
+
+##Use line below if there are files generated inside of vivado generated .Xil directory that have not been ignored like temperary .tcl files
+#/.*/
+
+!/Makefile
+!/*.sh
+!/*.tcl
+!/README.md
+!/*.py
+!/saved_md5sum_blank_id_version.txt
+!/*.bat
